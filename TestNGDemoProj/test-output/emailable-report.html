@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TestNGDemoSuite</th></tr>
+<tr><td><a href="#t0">TestNG Demo TestCases</a></td><td class="num">9</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">249,366</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNGDemoSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestNG Demo TestCases &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Com.TestNGTestcases.Register</td><td><a href="#m0">Setup</a></td><td rowspan="1">1686638518588</td><td rowspan="1">7431</td></tr><tr><th colspan="4">TestNG Demo TestCases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Com.TestNGTestcases.Login</td><td><a href="#m1">LoginWithValidCridential</a></td><td rowspan="1">1686638528395</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">Com.TestNGTestcases.Register</td><td><a href="#m2">VerifyRegisteringAnAccountbyProvidingTheExistingAccountDetails</a></td><td rowspan="1">1686638488962</td><td rowspan="1">28829</td></tr><tr><th colspan="4">TestNG Demo TestCases &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">Com.TestNGTestcases.Register</td><td><a href="#m3">TearDown</a></td><td rowspan="1">1686638526078</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestNG Demo TestCases &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Com.TestNGTestcases.Register</td><td><a href="#m4">VerifyRegisteringAnAccountWithouFillingAnyDetails</a></td><td rowspan="1">1686638526066</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestNG Demo TestCases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">Com.TestNGTestcases.Login</td><td><a href="#m5">LogInWithInvalidCredential</a></td><td rowspan="1">1686638544811</td><td rowspan="1">5244</td></tr><tr class="passedeven"><td><a href="#m6">LoginWithInValidEmailAndInvalidPassword</a></td><td rowspan="1">1686638567388</td><td rowspan="1">3416</td></tr><tr class="passedeven"><td><a href="#m7">LoginWithValidEmailAndInvalidPassword</a></td><td rowspan="1">1686638592276</td><td rowspan="1">2736</td></tr><tr class="passedeven"><td><a href="#m8">LoginWithoutEmailAndPassword</a></td><td rowspan="1">1686638612944</td><td rowspan="1">1594</td></tr><tr class="passedodd"><td rowspan="2">Com.TestNGTestcases.Register</td><td><a href="#m9">VerifyRegisteringAnAccountByProvidingAllTheFields</a></td><td rowspan="1">1686638464618</td><td rowspan="1">6397</td></tr><tr class="passedodd"><td><a href="#m10">VerifyRegisteringAnAccountbyProvidingonlytheMandatoryfields</a></td><td rowspan="1">1686638439327</td><td rowspan="1">5451</td></tr><tr class="passedeven"><td rowspan="3">Com.TestNGTestcases.Search</td><td><a href="#m11">VerifySearchingWithANonExistingProductName</a></td><td rowspan="1">1686638667467</td><td rowspan="1">1352</td></tr><tr class="passedeven"><td><a href="#m12">VerifySearchingWithProduct</a></td><td rowspan="1">1686638649259</td><td rowspan="1">2321</td></tr><tr class="passedeven"><td><a href="#m13">VerifySearchingWithoutProvidingAnyProductName</a></td><td rowspan="1">1686638630352</td><td rowspan="1">1842</td></tr></tbody>
+</table>
+<h2>TestNG Demo TestCases</h2><h3 id="m0">Com.TestNGTestcases.Register#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=114.0.5735.110) 
+Host info: host: &apos;AD-RESOURCE&apos;, ip: &apos;10.0.3.15&apos;
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at Com.Demo.QA.Base.Base.initilizeBrowserAndOpenApplicationURL(Base.java:38)
+	at Com.TestNGTestcases.Register.Setup(Register.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Com.TestNGTestcases.Login#LoginWithValidCridential</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)&quot; because &quot;row&quot; is null
+	at Com.TestNGDemo.Util.Utilites.getTestDataFromExcel(Utilites.java:41)
+	at Com.TestNGTestcases.Login.supplyTestData(Login.java:48)
+	... 25 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Com.TestNGTestcases.Register#VerifyRegisteringAnAccountbyProvidingTheExistingAccountDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;alert-dismissible&apos;)]&quot;}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ac9630c82aed9bedb88498ff3fac322, findElement {using=xpath, value=//div[contains(@class,&apos;alert-dismissible&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac9630c82aed9bedb88498ff3fac322
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+	at Com.TestNG.QA.Pages.RegisterPage.retrieveDuplicateEmailAdresswarning(RegisterPage.java:140)
+	at Com.TestNGTestcases.Register.VerifyRegisteringAnAccountbyProvidingTheExistingAccountDetails(Register.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Com.TestNGTestcases.Register#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Com.TestNGTestcases.Register#VerifyRegisteringAnAccountWithouFillingAnyDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=114.0.5735.110) 
+Host info: host: &apos;AD-RESOURCE&apos;, ip: &apos;10.0.3.15&apos;
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at Com.Demo.QA.Base.Base.initilizeBrowserAndOpenApplicationURL(Base.java:38)
+	at Com.TestNGTestcases.Register.Setup(Register.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Com.TestNGTestcases.Login#LogInWithInvalidCredential</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Com.TestNGTestcases.Login#LoginWithInValidEmailAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Com.TestNGTestcases.Login#LoginWithValidEmailAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Com.TestNGTestcases.Login#LoginWithoutEmailAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Com.TestNGTestcases.Register#VerifyRegisteringAnAccountByProvidingAllTheFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Com.TestNGTestcases.Register#VerifyRegisteringAnAccountbyProvidingonlytheMandatoryfields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Com.TestNGTestcases.Search#VerifySearchingWithANonExistingProductName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Com.TestNGTestcases.Search#VerifySearchingWithProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Com.TestNGTestcases.Search#VerifySearchingWithoutProvidingAnyProductName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

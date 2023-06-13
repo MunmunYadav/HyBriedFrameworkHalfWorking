@@ -1,0 +1,21 @@
+#Login test data
+invalidPassword=1234567890
+EmailPasswordNoMatchWarning=Warning: No match for E-Mail Address and/or Password
+
+#Register test data
+firstName=Munmun12
+lastName=Yadav
+telephone=1234567890
+accountSuccessfullyCreatedHeading=Your Account Has Been Created!
+duplicateEmailWarning=Warning: E-Mail Address is already registered!
+privacyPolicyWarning=Warning: You must agree to the Privacy Policy!
+FirstNameWarning=First Name must be between 1 and 32 characters!
+LastNameWarning=Last Name must be between 1 and 32 characters!
+EMailWarning=E-Mail Address does not appear to be valid!
+TelephoneWarning=Telephone must be between 3 and 32 characters!
+PasswordWarning=Password must be between 4 and 20 characters!
+
+#Search Test Data
+validProduct=HP
+invalidProduct=honda
+NoProductTextInSearchResult=There is no product that matches the search criteria.

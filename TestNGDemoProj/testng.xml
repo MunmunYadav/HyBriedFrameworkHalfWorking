@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MunmunTestSuite">
+  <test thread-count="5" name="DemoTest">
+    <classes>
+      <class name="Com.TestNGTestcases.Register"/>
+      <class name="Com.TestNGTestcases.Login"/>
+      <class name="Com.TestNGTestcases.Search"/>
+    </classes>
+  </test> <!-- DemoTest -->
+</suite> <!-- MunmunTestSuite -->
